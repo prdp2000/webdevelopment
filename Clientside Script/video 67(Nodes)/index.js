@@ -1,0 +1,9 @@
+document.body
+document.boby.childNodes
+document.body.firstElementChild
+document.body.firstElementChild.childNodes
+document.body.firstElementChild.children
+document.body.children[1]
+document.body.childElementCount
+document.body.lastElementChild
+document.body.lastChild 
