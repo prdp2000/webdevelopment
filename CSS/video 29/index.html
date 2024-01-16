@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise3 - Design this card</title>
+    <style>
+        * {
+            position: inherit;
+            background-color: rgb(28, 25, 25);
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: white;
+    border: 2px solid white;
+    width: 320px;
+    height: 435px;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    /* margin: 15px; */
+    position: fixed;
+}
+        .parent {
+            background-color: white;
+            border: 2px solid rgb(151, 140, 140);
+            border-radius: 20px;
+            height: 400px;
+            width: 250px;
+            position: fixed;
+            left: 33%;
+            top: 15%;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            margin: 5px;
+            border-radius: 10px;
+            width: 240px;
+            height: 150px;
+            position: absolute;
+        }
+
+        .box1 {
+            border-radius: 10pc;
+            position: absolute;
+        }
+
+        .box2 {
+            position: absolute;
+            top: 40%;
+            left: 10px;
+
+        }
+
+        p.first {
+            border: 2px solid rgb(222, 213, 213);
+            border-radius: 11px;
+            position: absolute;
+            background-color: white;
+            color: rgb(125, 122, 118);
+            padding: 2px;
+            font-size: 12px;
+
+        }
+
+        p.second {
+            border: 2px solid rgb(222, 213, 213);
+            border-radius: 11px;
+            position: absolute;
+            background-color: white;
+            color: rgb(125, 122, 118);
+            left: 55px;
+            padding: 2px;
+            font-size: 12px;
+        }
+
+        .box3 {
+            background-color: white;
+            position: absolute;
+            top: 48%;
+            width: 250px;
+        }
+
+        h2 {
+            background-color: white;
+            display: flex;
+        }
+
+        .box4>p {
+            position: absolute;
+            background-color: white;
+            padding: 2px;
+        }
+
+        .box4 {
+            position: absolute;
+            top: 60%;
+            width: 250px;
+        }
+        .box5{
+            border: 2px solid rgb(162, 165, 200);
+            border-radius: 20px;
+            top: 85%;
+            left:43%;
+            background-color: rgb(173, 177, 215);
+            color: blue;
+            padding: 10px;
+            width: 45px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box1"><img src="image.png" alt="image"></div>
+        <div class="box2">
+            <p class="first">Nature</p>
+            <p class="second">Lake</p>
+        </div>
+        <div class="box3">
+            <h2>Pradeep R</h2>
+        </div>
+        <div class="box4">
+            <p>
+                I becoming a good Web Developor by learning Sigma Web Development.
+                Harry Bhai teaching us in a very easy manner </p>
+        </div>
+        <div class="box5">Read</div>
+    </div>
+</body>
+
+</html>

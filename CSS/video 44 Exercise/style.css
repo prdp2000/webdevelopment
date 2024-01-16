@@ -1,0 +1,77 @@
+ .logo img {
+     width: 132px;
+     gap: 34px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .right ul {
+     display: flex;
+ }
+
+ .right ul li {
+     list-style: none;
+     padding: 5px;
+     display: flex;
+     align-items: center;
+ }
+
+ .end {
+     padding: 0 9px;
+ }
+
+ .right ul li span {
+     padding: 0 9px;
+ }
+.first{
+justify-self: center;
+text-align: center;
+margin: 10px;
+padding: 10px;}
+ .download_section {
+     display: grid;
+     grid-template-columns: 340px 340px 340px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .download_section>div {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .items {
+     justify-items: center;
+     align-items: center;
+ }
+
+ .language {
+     margin: 30px;
+ }
+.thrid{
+    display: flex;
+}
+.thrid>img{
+    margin-top: 15px;
+    margin-right: 5px;
+    width: 39px;
+    height: 39px;
+}
+ a {
+     margin: 0 9px;
+     padding: 9px;
+     background-color: aqua;
+     border-radius: 7px;
+     text-decoration: none;
+     width: 100px;
+     color: white;
+     left: 40px;
+ }
+
+ a:nth-child(2) {
+     background-color: green;
+ }

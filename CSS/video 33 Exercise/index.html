@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutli Color website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: aquamarine;
+        }
+        :root{
+            --color:white;
+            --seccolor:blue;
+            --border:2px solid rgb(98, 205, 98);
+            --background-color: rgb(78, 163, 78);
+            --defpad:4px 44px;
+            --defmad:0px 0px;
+            --def-style-type:none;
+            --defdis:flex;
+            --secborder:4px solid black ;
+        }
+        ul{
+            background-color: rgb(43, 42, 42);
+            display: var(--defdis); 
+            list-style-type: var(--def-style-type); 
+            border: var(--border);          
+        }
+        li{
+            padding: var(--defpad);
+            margin: var(--defmad);
+            color: var(--color);
+            background-color: var(--background-color);
+        }
+        li:hover{
+            color: var(--seccolor);
+            border: var(--secborder);
+        }
+        
+        @media only screen and (max-width:755px) {
+
+
+* {
+    background-color: rgb(225, 15, 92);
+}
+li{
+    padding: var(--defpad);
+            margin: var(--defmad);
+            color: var(--color);
+            background-color: var(--background-color);
+}
+
+#box {
+    flex-direction: column;
+}
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias rerum soluta labore voluptas incidunt necessitatibus error, modi porro sint in optio eaque esse ipsam, saepe magni officia. Voluptatibus, molestiae?</p>
+    </div>
+</body>
+</html>
